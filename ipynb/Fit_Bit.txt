@@ -1,0 +1,11 @@
+OAuth 2.0 Client ID
+238LKW
+
+Client Secret
+137f42147b6050f9323dbcb3f0c6fbe3
+
+OAuth 2.0: Authorization URI
+https://www.fitbit.com/oauth2/authorize
+
+OAuth 2.0: Access/Refresh Token Request URI
+https://api.fitbit.com/oauth2/token

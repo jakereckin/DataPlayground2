@@ -1,0 +1,4 @@
+﻿Game_ID,Points_Scored,Points_Allowed,Points_Scored_First_Half,Points_Allowed_First_Half,Points_Scored_Second_Half,Points_Allowed_Second_Half,Two_Point_Attempts,Two_Points_Made,Three_Point_Attempts,Three_Points_Made,Free_Throw_Attempts,Free_Throws_Made,Total_FGA,Total_FGM,Assists,Turnovers,Offensive_Rebounds,Defensive_Rebounds,Total_Rebounds,Steals
+1,67,60,26,27,41,33,53,18,10,6,23,13,63,24,15,13,14,19,32,6
+2,45,63,21,33,24,30,39,16,14,2,8,6,53,18,11,16,12,14,26,8
+3,84,16,47,9,37,7,48,31,14,5,10,7,62,36,21,4,14,20,34,16

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>I (JAKE) MADE THIS</title>
+
+
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>WIS HS GBB Win Predictor</h1>
+  <p style= "color:blue" >
+  This was made by Jake just to prove a point</p>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}" method="post">
+    	<input type="text" name="fgm" placeholder="Field Goals Made" required="required" style = "height:25px; width:200px"  />
+        <input type="text" name="fga" placeholder="Field Goals Attempted" required="required" style = "height:25px; width:200px" />
+		<input type="text" name="ftm" placeholder="Free Throws Made" required="required" style = "height:25px; width:200px" />
+    	<input type="text" name="fta" placeholder="Free Throws Attempted" required="required"style = "height:25px; width:200px"  />
+        <input type="text" name="threepm" placeholder="Three Point Made" required="required" style = "height:25px; width:200px" />
+		<input type="text" name="threepa" placeholder="Three Point Attempted" required="required"style = "height:25px; width:200px"  />
+    <input type="text" name="or_o" placeholder="Offensive Rebounds" required="required"style = "height:25px; width:200px"  />
+    <input type="text" name="dr" placeholder="Defensive Rebounds" required="required"style = "height:25px; width:200px"  />
+<input type="text" name="a" placeholder="Assists" required="required"style = "height:25px; width:200px"  />
+   <input type="text" name="to" placeholder="Turnovers" required="required"style = "height:25px; width:200px"  />
+    <input type="text" name="s" placeholder="Steals" required="required" style = "height:25px; width:200px" />
+  <input type="text" name="fgm_a" placeholder="Field Goals Made Allowed" required="required" style = "height:25px; width:200px" />
+    <input type="text" name="fga_a" placeholder="Field Goals Attempted Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="ftm_a" placeholder="Free Throws Made Allowed" required="required" style = "height:25px; width:200px" />
+  <input type="text" name="fta_a" placeholder="Free Throws Attempted Allowed" required="required" style = "height:25px; width:200px" />
+    <input type="text" name="threepm_a" placeholder="Three Point Made Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="threepa_a" placeholder="Three Point Attempted Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="or_a" placeholder="Offensive Rebounds Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="dr_a" placeholder="Defensive Rebounds Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="a_a" placeholder="Assists Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="to_a" placeholder="Turnovers Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="s_a" placeholder="Steals Allowed" required="required" style = "height:25px; width:200px" />
+<input type="text" name="half" placeholder="Half (1 or 2)" required="required"style = "height:25px; width:200px"  />
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+   <br>
+   <br>
+   {{ win_percentage }}
+
+</div>
+
+</body>
+</html>

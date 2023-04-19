@@ -1,0 +1,11 @@
+﻿GameID,Team,Opponent,Home,Points_First,Points_Second,Points_Total,FGM,FGA,FTM,FTA,3GM,3GA,Oboards,Dboards,Assists,Turnovers,Steals,Win
+1,Hortonville,Green Bay Southwest,N,34,45,79,31,56,9,17,8,22,11,18,16,13,19,Y
+1,Green Bay Southwest,Hortonville,Y,19,23,42,16,40,5,19,5,17,6,11,7,21,6,N
+2,Oshkosh North,Menasha,N,8,30,38,15,42,3,14,5,18,8,20,8,21,9,N
+2,Menasha,Oshkosh North,Y,23,28,51,14,40,14,24,3,7,5,15,3,9,6,Y
+3,Stevens Point,Appleton West,N,27,28,55,18,40,9,17,6,20,7,28,17,19,6,N
+3,Appleton West,Stevens Point,Y,22,39,61,21,59,9,12,10,23,4,25,12,11,11,Y
+4,Appleton East,Wisconsin Rapids,Y,50,39,89,31,68,15,15,9,28,15,21,12,5,17,Y
+5,Hortonville,Green Bay Preble,N,55,31,86,32,65,18,25,4,24,18,22,10,14,28,Y
+5,Green Bay Preble,Hortonville,Y,6,5,11,5,34,1,3,0,5,5,13,1,40,2,N
+6,Oshkosh West,Pulaski,N,,,,,,,,,,,,,,,

@@ -1,0 +1,12 @@
+SpotID,SpotOnCourt,PointValue,Y2,X2
+1,3LeftCorner,3,20,95
+2,3LeftWing,3,120,85
+3,3Top,3,140,50
+4,3RightWing,3,120,15
+5,3RightCorner,3,20,5
+6,MidLeftCorner,2,25,80
+7,MidLeftWing,2,80,70
+8,MidTop,2,90,50
+9,MidRightWing,2,80,30
+10,MidRightCorner,2,25,20
+11,Paint,2,60,50
